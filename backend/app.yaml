@@ -1,0 +1,14 @@
+runtime: python39
+
+env_variables:
+  REDDIT_CLIENT_ID: "TXLFnl0TslcIu-H0lAI2vA"
+  REDDIT_CLIENT_SECRET: "fTNioqatrkoa_FusQvxjGi-vwInrfg"
+  REDDIT_USER_AGENT: "Flights-Personal-Use-Script"
+
+entrypoint: gunicorn -b :8080 app:app
+
+handlers:
+  - url: /static
+    static_dir: static/
+  - url: /.*
+    script: auto

@@ -1,0 +1,7 @@
+Flask==2.1.1
+Werkzeug==2.1.1
+google-cloud-bigquery==3.27.0
+praw==7.5.0
+gunicorn==20.1.0
+python-dotenv==0.19.2
+flask-cors==5.0.0
