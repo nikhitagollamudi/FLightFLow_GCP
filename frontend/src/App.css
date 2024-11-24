@@ -1,0 +1,134 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F1F0E8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: rgb(137, 168, 178);
+}
+
+a {
+  color: #B3C8CF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #89A8B2;
+}
+
+.app-header {
+  background-color: rgb(137, 168, 178);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.controls {
+  margin: 20px;
+}
+
+.controls label {
+  margin-right: 10px;
+  color: rgb(137, 168, 178);
+}
+
+.controls select {
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: #FFFFFF;
+  border: 1px solid #B3C8CF;
+  border-radius: 5px;
+}
+
+.controls select:focus {
+  outline-color: rgb(137, 168, 178);
+}
+
+.visualizations {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #E5E1DA;
+  border-radius: 8px;
+}
+
+.visualizations h2 {
+  color: rgb(137, 168, 178);
+  font-size: 1.8rem;
+}
+
+.chart {
+  margin-top: 20px;
+  height: 400px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reddit-section {
+  background-color: rgb(229, 225, 218);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.reddit-section h2 {
+  color: rgb(137, 168, 178);
+  font-size: 1.8rem;
+}
+
+.reddit-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reddit-post {
+  background-color: #F1F0E8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reddit-post h3 {
+  color: rgb(137, 168, 178);
+  font-size: 1.5rem;
+}
+
+.reddit-post p {
+  color: #B3C8CF;
+  font-size: 1.2rem;
+}
+
+.reddit-post a {
+  color: #89A8B2;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.reddit-post a:hover {
+  color: #E5E1DA;
+  text-decoration: underline;
+}
+
+.reddit-post a:focus {
+  outline-color: rgb(137, 168, 178);
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: rgb(137, 168, 178);
+  color: white;
+}
