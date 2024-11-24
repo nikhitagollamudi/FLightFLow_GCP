@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.env
+fa24-i535-hkonjeti-finalprj-52cdd88131a3.json
